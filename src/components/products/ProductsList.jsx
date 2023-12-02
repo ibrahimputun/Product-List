@@ -1,9 +1,10 @@
 import ProductCard from "./ProductCard";
+import "./Products.scss";
 
 const ProductsList = ({ products }) => {
   console.log(products);
   return (
-    <div className="card-container">
+    <div className="products-list">
       {/*//! destructuring yapmadan kullanma */}
       {/* {products.map((product) => (
         <div key={product.id}>
